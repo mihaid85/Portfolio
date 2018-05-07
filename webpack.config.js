@@ -8,7 +8,7 @@ module.exports = (env) => {
         entry: './src/app.js',
         output: {
             path: path.join(__dirname, 'public'),
-            filename: 'socialQuiz.js'
+            filename: 'bundle.js'
         },
         module: {
             rules: [{
