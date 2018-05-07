@@ -1,9 +1,10 @@
 {
-  "name": "social-quiz",
+  "name": "Portfolio",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Danet Mihai",
   "license": "MIT",
+  "homepage": "https://mihaid85.github.io/Portfolio",
   "scripts": {
     "serve": "live-server public/",
     "build:dev": "webpack",
