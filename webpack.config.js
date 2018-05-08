@@ -23,7 +23,7 @@ module.exports = (env) => {
                     'sass-loader?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:5]'
                 ]
             },{
-                test: /\.(png|jpg)$/,
+                test: /\.(png|jpg|gif)$/,
                 loader: 'url-loader?limit=8192'
             },
             {

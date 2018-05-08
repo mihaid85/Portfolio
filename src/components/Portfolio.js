@@ -1,6 +1,6 @@
 import React from "react";
-import axios from 'axios';
 import Header from './Header';
+import Intro from './Intro';
 // import styles from "../styles/components/_quizContainer.scss";
 
 export default class Portfolio extends React.Component {
@@ -9,7 +9,7 @@ export default class Portfolio extends React.Component {
         return (
             <div>
                 <Header />
-                aaa
+                <Intro />
             </div>
         );
     }
