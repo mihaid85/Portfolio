@@ -9,7 +9,7 @@ export default class Portfolio extends React.Component {
         return (
             <div>
                 <Header />
-                <Intro />
+                {/* <Intro /> */}
             </div>
         );
     }
