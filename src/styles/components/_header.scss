@@ -31,9 +31,14 @@ nav{
 
 .navbar{
 	margin: 2em auto;
-	width: 70vw;
+	width: 60vw;
 	display: flex;
 	justify-content: space-around;
+}
+
+.navbar > a {
+	font-family: 'Kavivanar', cursive;
+	text-decoration: none;
 }
 
 // .hiddenLogo{

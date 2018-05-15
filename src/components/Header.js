@@ -9,16 +9,6 @@ export default class Header extends React.Component {
         visibility: 'hidden'
     };
 
-    burgerToggle = () => {
-        let linksEl = document.querySelector('.narrowLinks');
-        if (linksEl.style.display === 'block') {
-                  linksEl.style.display = 'none';
-              } else {
-                  linksEl.style.display = 'block';
-              }
-      }
-
-
     render(){
         return (
             <nav>

@@ -1,0 +1,48 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+.profilePic > img {
+    border-radius: 50%;
+}
+
+.introAbout{
+    display: flex;
+    flex-direction: column;
+}
+
+.introText{
+    margin-left: 2em;
+	font-family: 'Kavivanar', cursive;
+}
+
+.arrow{
+    height: 100px;
+}
+
+// .introText, .introText:before {
+//     background-repeat: no-repeat;
+//     -webkit-background-size: auto;
+//             background-size: auto;
+//   background-position: 50% 50%;
+// }
+
+.secondRow{
+    // padding-left: 124px;
+}
+
+// .logo{
+//     display: flex;
+//     justify-content: center;
+//     text-align: center;
+//     height: 60px;
+//     width: 60px;
+//     font-size: xx-large;
+//     font-family: 'Nothing You Could Do', cursive;
+//     background-color: black;
+//     color: white;
+//     border-radius: 50%;
+//     padding: 5px;
+// }
