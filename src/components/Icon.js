@@ -1,4 +1,5 @@
 import React from "react";
+import ReactTooltip from 'react-tooltip';
 import styles from "../styles/components/_icon.scss";
 
 export default class Icon extends React.Component{
@@ -7,7 +8,8 @@ export default class Icon extends React.Component{
         this.state = {
             iconColor: this.props.color,
             iconClass: this.props.icon,
-            hoverState: false
+            hoverState: false,
+            title: this.props.title
         }
     }
 
@@ -18,7 +20,10 @@ export default class Icon extends React.Component{
     render(){
         return (
             <div className={styles.iconContainer}>
-                <i className={this.state.iconClass} style={{color: this.state.iconColor}} onMouseEnter={this.hoverHandler} onMouseLeave={this.hoverHandler} title={this.props.title}></i>
+                <i data-tip data-for={this.state.title} className={this.state.iconClass} style={{color: this.state.iconColor}} onMouseEnter={this.hoverHandler} onMouseLeave={this.hoverHandler}></i>
+                <ReactTooltip id={this.state.title} place="bottom" type="info" effect="float">
+                    <span>{this.props.title}</span>
+                </ReactTooltip>
             </div>
         );
     }
