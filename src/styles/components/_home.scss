@@ -1,48 +1,37 @@
-.intro{
-    display: flex;
-    justify-content: center;
-    margin: 2em auto;
-}
-
-.profilePic > img {
-    border-radius: 50%;
-}
-
-.introAbout{
-    display: flex;
-    flex-direction: column;
+header{
+    background: url('../../../public/images/background1.jpg') center/cover no-repeat;
+    min-height: 100vh;
+    // display: flex;
 }
 
 .introText{
-    margin-left: 2em;
-	font-family: 'Kavivanar', cursive;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Kavivanar', cursive;
+    font-size: xx-large;
 }
 
-.arrow{
-    height: 100px;
+.introText > h1, .introText > h3{
+    margin: 0;
 }
 
-// .introText, .introText:before {
-//     background-repeat: no-repeat;
-//     -webkit-background-size: auto;
-//             background-size: auto;
-//   background-position: 50% 50%;
-// }
-
-.secondRow{
-    // padding-left: 124px;
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5em;
 }
 
-// .logo{
-//     display: flex;
-//     justify-content: center;
-//     text-align: center;
-//     height: 60px;
-//     width: 60px;
-//     font-size: xx-large;
-//     font-family: 'Nothing You Could Do', cursive;
-//     background-color: black;
-//     color: white;
-//     border-radius: 50%;
-//     padding: 5px;
-// }
+.downArrow{
+    height: 20vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.downArrow > img{
+    margin: 0 auto;
+}
