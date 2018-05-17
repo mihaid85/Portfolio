@@ -1,10 +1,12 @@
 import React from "react";
 import Icon from './Icon';
+import Header from './Header';
 import styles from "../styles/components/_home.scss";
 
 const Home = (props) => {
     return (
         <header>
+            <Header />
             <div className={styles.introText}>
                 <h1>Mihai Danet</h1><h3>Web Developer</h3>
                 <div className={styles.icons}>
