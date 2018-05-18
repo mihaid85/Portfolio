@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Portfolio from "./components/Portfolio";
+import App from "./components/App";
 // import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
-ReactDOM.render(<Portfolio />, document.getElementById('portfolio'));
+ReactDOM.render(<App />, document.getElementById('portfolio'));

@@ -14,6 +14,7 @@ const Home = (props) => {
                     <Icon color={'grey'} icon={'icon_css3'} title={'CSS'} />
                     <Icon color={'grey'} icon={'icon_javascript'} title={'Javascript'} />
                     <Icon color={'grey'} icon={'icon_reactjs'} title={'ReactJS'} />
+                    <Icon color={'grey'} icon={'icon_jquery'} title={'JQuery'} />
                     <Icon color={'grey'} icon={'icon_sass'} title={'SASS/SCSS'} />
                     <Icon color={'grey'} icon={'icon_bootstrap'} title={'Bootstrap'} />
                     <Icon color={'grey'} icon={'icon_php'} title={'PHP'} />
